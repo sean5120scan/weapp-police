@@ -1,0 +1,9 @@
+{
+  "usingComponents": {},
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#3370CC",
+    "navigationBarTitleText": "个人专属服务空间",
+    "navigationBarTextStyle":"white"
+  }
+}

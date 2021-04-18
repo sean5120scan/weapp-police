@@ -1,0 +1,152 @@
+.gw{
+  width: 90%;
+}
+.fx{display: flex;}
+.index-page{
+  padding:0 0 40rpx 0;
+}
+.head{ height: 200rpx;}
+.head-inner{
+  position: relative; width: 100%; height:220rpx;  
+}
+.head-inner:after {
+   width: 120%;
+    height: 200rpx; 
+    position: absolute; 
+    left: -10%;
+    top: 0;
+    z-index: -1; 
+    content: ''; 
+    border-radius: 0 0 50% 50%; 
+    background: #3370CC
+   }
+.user{
+  position: relative;
+  top:120rpx;
+  margin:0 auto 20rpx auto;
+  width: 90%;
+  display: flex;
+  padding: 12rpx 24rpx;
+  background: #fff;
+  box-sizing: border-box;
+  box-shadow: 0 0 8rpx #ccc;
+}
+
+.info-box{flex:3}
+.user-center{flex:1}
+.content{
+  padding: 16rpx 0 48rpx 0;
+  width: 90%;
+  margin:0 auto
+}
+.cont-title{font-size:48rpx;font-weight:bold;padding: 20rpx 0;margin-top:30rpx}
+.demo-text-1{
+  background: #f7eaf5;
+}
+.demo-text-2{
+  background:#3370CC;
+}
+.dept-name{
+  margin-top:12rpx
+}
+.section{
+  width: 90%;
+  margin:30rpx auto;
+  /* padding:0 10rpx ; */
+}
+.section-lt{
+  flex:1
+}
+.section-rt{
+  width: 160rpx;
+  color:#666;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.swiper{
+  margin-top:40rpx
+}
+.swiper-box{
+   height: 260rpx;
+   width: 90%;
+   margin: 0 auto;
+   overflow: hidden;
+   border-radius: 10rpx;
+}
+.swiper-item{
+  height: 260rpx; 
+  width: 100%;  
+ }
+.item{
+  display: flex;
+  flex-direction:row;
+  padding: 48rpx 0;
+  border-radius: 12rpx;
+  margin:40rpx 0;
+  box-sizing: border-box;
+}
+.item-icon{
+  width:120rpx;
+  display: flex;
+  padding-left: 24rpx;
+  align-items: center;
+}
+.fs{
+font-size: 62rpx;  
+}
+.item-text{
+  padding:0 20rpx;
+  flex:1;
+  box-sizing: border-box
+}
+.info-title{
+  font-size:38rpx;
+}
+.info-cont{
+  padding-top: 20rpx;
+  font-size: 28rpx;
+  color:#555
+}
+.footer-info{
+  text-align: center;
+  padding: 30rpx 0 12rpx 0;
+  color:#666;
+  font-size:22rpx
+}
+.footer-sub{
+  text-align: center;
+  color:#666;
+  font-size:20rpx
+}
+.other-dept-box{
+  padding: 20rpx;
+  width: 100%;
+   height:200rpx;
+   border-top:1px solid #f7f7f7;
+   border-bottom:1px solid #f7f7f7;
+}
+.dept-scroll{
+  margin-top:20rpx;
+  height:200rpx;
+  width: 100%;
+}
+.dept-tit{
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  box-shadow: 0 0 4rpx #ccc;
+  font-size: 40rpx;
+  font-weight:bold
+}
+.dept-item{
+   height: 100%;
+   width: 30%;
+   display:inline-block;
+   margin-right:6rpx
+}
+.dept{
+  border-bottom:1px solid #f7f7f7
+}
+
+

@@ -1,0 +1,15 @@
+.dept-detail{
+  height: 100vh;
+}
+.head{
+  width: 100%;
+}
+.detail-box{
+  border-radius: 20rpx;
+  background:#fff;
+  width: 80%;
+  margin: 30rpx auto
+}
+.item{
+  
+}

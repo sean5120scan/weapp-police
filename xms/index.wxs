@@ -1,0 +1,19 @@
+
+function getRandColor(){
+  var arr=["#FF0000","#FF9900","#3C72C4","#2BD591"]
+  var index=Math.ceil(Math.random()*arr.length-1)
+  index= index==arr.length?arr.length-1:index
+  return arr[index];
+}
+function isPost(val){
+  return val=="Y"? "支持":"不支持";
+}
+function parseDeep(val){
+  return val==1?"全程网办":"在线预审";
+}
+
+module.exports={
+  getRandColor:getRandColor,
+  isPost:isPost,
+  parseDeep:parseDeep
+}

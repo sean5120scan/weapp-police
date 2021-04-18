@@ -1,0 +1,68 @@
+<view class="user-center-page">
+  <view class="head p20">
+    <view class="h-item fx">
+      <view class="avatar">
+        <view class="info-box"> 
+              <van-image
+                width="50"
+                height="50"
+                lazy-load
+                round
+                src="https://img.yzcdn.cn/vant/cat.jpeg"
+              />
+            </view>
+      </view>
+      <view class="info">
+        <view class="fs42">田川</view>
+        <view class="ptb10"> 
+          <text class="fs24 mr20">个人信息</text>
+          <text class="iconfont icon-youjiantou fs18 "></text></view>
+      </view>
+      <view class="setting">
+        <text class="iconfont icon-ziyuan mr20"></text>
+        <text>设置</text>
+      </view>
+    </view>
+    <view class="h-item fx">
+      <view class="message">
+        <text class="iconfont icon-message fs64 mr20 blue vMid"></text>
+        <text>我的消息</text>
+      </view>
+      <view class="file flexR">
+        <text class="iconfont icon-wenjian fs64 mr20 orange vBtm"></text>
+        <text class="vBtm">我的办件</text>
+      </view>
+    </view>
+  </view>
+  <view class="item-block fx mt20 ">
+    <view class="fs48 fsBold item-lt ">我的档案</view>
+    <view class="item-rt flexR">
+      <text class="iconfont icon-youjiantou c6 fs32"></text>
+    </view>
+  </view>
+  <view class=" item-block fx">
+    <view class="fs48 fsBold item-lt ">我的推荐</view>
+    <view class="item-rt flexR">
+      <text class="iconfont icon-youjiantou c6 fs32"></text>
+    </view>
+  </view>
+  <view class=" item-block fx">
+    <view class="fs48 fsBold item-lt">我的服务</view>
+    <view class="item-rt flexR">
+      <text class="iconfont icon-youjiantou c6 fs32"></text>
+    </view>
+  </view>
+  <view class=" item-block fx">
+    <view class="fs48 fsBold item-lt">专题服务</view>
+    <view class="item-rt flexR">
+      <text class="iconfont icon-youjiantou c6 fs32"></text>
+    </view>
+    <view>
+        <view></view>
+
+    </view>
+  </view>
+    <view class=" item-block loginout-btn"> 
+      退出登录
+    </view>
+</view>

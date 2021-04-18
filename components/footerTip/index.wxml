@@ -1,0 +1,5 @@
+<view class="footer">
+  <view class="tcenter">湖北省监利县公安局</view>
+  <view class="tcenter">国家公安网络惠民工程</view>
+  <slot></slot>
+</view>

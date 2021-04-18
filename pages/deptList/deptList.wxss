@@ -1,0 +1,58 @@
+.dept-page{
+  padding-bottom: 40rpx;
+}
+.dept-list-head{
+   padding: 20rpx;
+   background: #eee;
+   display: flex;
+}
+.dept-list-lt{
+  width: 60%;
+  padding: 12px;
+  box-sizing: border-box;
+}
+.dept-list-rt
+{
+  flex:1
+}
+.dept-p{
+  padding: 14rpx 0;
+}
+.ipt{
+  border-radius: 18rpx;
+  border:1rpx solid #fff;
+  font-size:20rpx;
+  padding: 4rpx 0 4rpx 10rpx;
+}
+.list-box{
+  padding: 24rpx;
+}
+.dept-item{
+  display: flex;
+  border-bottom:1rpx solid #eee;
+  padding: 20rpx 0;
+}
+.dept-item:last-child{
+  border-bottom:none  
+}
+.dept-icon,.dept-arrow{
+  width: 120rpx;
+}
+.dept-arrow{
+  display: flex;
+  justify-content:flex-end;
+  margin-right:12rpx;
+  align-items: center
+}
+.dept-cont{
+  flex:1;
+  padding-left: 24px;
+  box-sizing: border-box;
+}
+.dept-icon-tit{
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  box-shadow: 0 0 8rpx #ccc;
+  color:#fff
+}

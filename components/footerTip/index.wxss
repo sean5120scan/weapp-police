@@ -1,0 +1,10 @@
+.footer{
+  padding:20rpx;
+}
+.fs22{
+  font-size: 22px;
+  color:#666
+}
+.tcenter{
+  text-align: center;
+}

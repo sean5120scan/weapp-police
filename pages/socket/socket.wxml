@@ -1,0 +1,2 @@
+<button bindtap="postdata">发送给后端</button> -->
+<button bindtap="sendMessage">websocket</button>

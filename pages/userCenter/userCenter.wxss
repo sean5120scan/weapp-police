@@ -1,0 +1,62 @@
+
+.user-center-page{
+  padding:40rpx 32rpx 32rpx 32rpx;
+  box-sizing: border-box;
+  background: #f7f7f7;
+  min-height: 100vh;
+}
+.head{
+  background: #fff;
+  border:1rpx solid #eee
+
+}
+.item-block{
+  padding:40rpx 24rpx;
+  background: #fff;
+  box-sizing:border-box;
+  margin-top:30rpx
+}
+.item-lt,.item-rt{
+  flex:1
+}
+.item-rt{
+  padding-right:20rpx
+}
+.avatar{
+  width: 80rpx;
+  height: 80rpx;
+  margin-right: 20rpx
+}
+.setting{
+  width: 120rpx;
+}
+.info{
+  flex:1;
+  padding-left: 24rpx;
+}
+.message,.file{
+flex:1
+}
+.fs64{
+  font-size: 64rpx;
+}
+.blue{
+  color:#3370CC
+}
+.orange{
+  color:#FF9900
+}
+.h-item{
+  padding: 20rpx 0
+}
+.vMid{vertical-align: middle}
+.vBtm{vertical-align:bottom}
+.loginout-btn{
+  width: 100%;
+  padding:30rpx 0;
+  text-align: center;
+  font-size:28rpx;
+  font-weight: bold;
+  margin-top:40rpx;
+  border:2px solid #eee
+}

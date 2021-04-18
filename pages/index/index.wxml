@@ -1,0 +1,105 @@
+
+  <view class="index-page">
+    <wxs src="../../xms/index.wxs" module="tools"></wxs>
+    <view class="head">
+        <view class="head-inner">
+          <view class="user">
+            <view class="info-box"> 
+              <van-image
+                width="50"
+                height="50"
+                lazy-load
+                round
+                src="https://img.yzcdn.cn/vant/cat.jpeg"
+              />
+            </view>
+            <view class="user-center center" bindtap="goUserCenter">个人中心</view>
+          </view>
+        </view>
+    </view>
+    <view class="swiper">
+      <view class="section fx ">
+        <view class="cont-title section-lt">我的执照</view>
+        <view class="section-rt c6" >全部</view>
+      </view>
+      <swiper class="swiper-box" indicator-dots="{{indicatorDots}}" circular    indicator-active-color="#fff"
+        autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+        <block wx:for="{{background}}" wx:key="index">
+          <swiper-item>
+            <view class="swiper-item {{item}}" bindtap="viewLinsence"></view>
+          </swiper-item>
+        </block>
+      </swiper>
+    </view>
+    <view class="content">
+      <view class="cont-title">热门服务</view>
+      <view class="cont-main">
+        <view 
+          class="item" 
+          wx:for="{{serviceList}}" 
+          wx:key="item.id"
+          wx:for-item="item" 
+          style="background:{{item.bgColor}}"
+          data-id="{{item.id}}"
+          bindtap="goServerDetal"
+        >
+          <view class="item-icon">
+            <text
+            style="color:{{item.color}}"
+             class="iconfont icon-{{item.icon}} fs"
+            >
+            </text>
+          </view>
+          <view class="item-text">
+            <view class="info-title">{{item.title}}</view>
+            <view class="info-cont">{{item.cont}}</view>
+          </view>
+        </view>
+      </view>
+      <view class="dept">
+        <view class="fx">
+          <view class="cont-title section-lt">乡镇派出所查询</view>
+          <view class="section-rt c6 center mt10" bindtap="viewDeptList">全部({{deptArr.length}})</view>
+        </view>
+        <view class="other-dept-box">
+          <scroll-view class="dept-scroll" scroll-x="true" bindscroll="scroll" style=" white-space: nowrap">
+            <view class="dept-item"
+              wx:for="{{deptArr}}"
+              wx:key="{{item.id}}"
+              data-id="{{item.id}}"
+              bindtap="goDetailDept">
+              <view class="dept-tit center" style="color:{{tools.getRandColor()}}">
+                {{item.title}}
+              </view>
+              <view class="dept-name">{{item.cont}}</view>
+            </view>
+          </scroll-view>
+        </view>
+      </view>
+      <view class="specia">
+        <view class="fx">
+          <view class="cont-title section-lt">便民服务专区</view>
+        </view>
+        <view >
+            <view class="item" 
+              wx:for="{{specalService}}" 
+              wx:key="item.id"
+              wx:for-item="item" 
+              style="background:{{item.bgColor}}"
+            >
+                <view class="item-icon">
+                  <text style="color:{{item.color}}" class="iconfont icon-{{item.icon}} fs"></text>
+                </view>
+                <view class="item-text">
+                  <view class="info-title">{{item.title}}</view>
+                  <view class="info-cont">{{item.cont}}</view>
+                </view>
+            </view>
+        </view>
+      </view>
+    </view>
+    <view class="footer">
+      <view class="footer-info">湖北省监利县公安局</view>
+      <view class="footer-sub">国家公安网络惠民工程</view>
+    </view>
+</view>

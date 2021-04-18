@@ -1,0 +1,31 @@
+<view>
+  <view class="head">
+    <view class="user">
+            <view class="info-box"> 
+              <van-image
+                width="50"
+                height="50"
+                lazy-load
+                round
+                src="https://img.yzcdn.cn/vant/cat.jpeg"
+              />
+            </view>
+            <view class="user-center center">sean</view>
+    </view>
+    <van-steps
+      steps="{{ stepArr }}"
+      active="{{ active }}"
+      direction="vertical"
+      active-color="#3370CC"
+    />
+  </view>
+  <view class="txt-box">
+    <text class="txt-1">请先登录账号</text>
+    <text class="txt-2">登录后可查询、办理各类民生服务</text>
+  </view>
+  <view class="footer">
+    <view class="btn">
+      <van-button type="primary">第一部（获取昵称、头像）</van-button></view>
+    <view class>《用户服务协议》<text>和</text>《隐私说明》</view>
+  </view>
+</view>

@@ -1,0 +1,11 @@
+<view class="dept-detail">
+  <view class="head center">
+    <image src="../../assets/imgs/bg2.png" mode="heightFix"></image>
+  </view>
+  <view class="detail-box">
+    <view class="item">
+      <view class="item-lt"></view>
+      <view class="item-rt"></view>
+    </view>
+  </view>
+</view>

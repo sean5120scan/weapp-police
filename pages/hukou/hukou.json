@@ -1,0 +1,6 @@
+{
+
+  "usingComponents": {
+    "Free":"../../components/hukou/free/free"
+  }
+}

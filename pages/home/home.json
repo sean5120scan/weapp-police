@@ -1,0 +1,9 @@
+{
+  "usingComponents": {},
+   "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#99C2FF",
+    "navigationBarTitleText": "毛市派出所",
+    "navigationBarTextStyle":"black"
+  }
+}

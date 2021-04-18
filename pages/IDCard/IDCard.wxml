@@ -1,0 +1,35 @@
+<!--pages/IDCard/IDCard.wxml-->
+
+<view class="idCard-page theme-color">
+  <view class="main">
+    <view 
+          class="item" 
+          wx:for="{{serviceList}}" 
+          wx:key="item.id"
+          wx:for-item="item" 
+          style="background:{{item.bgColor}}"
+          data-id="{{item.id}}"
+          bindtap="goServerDetal"
+          >
+            <view class="item-icon">
+                <text
+                style="color:{{item.color}}"
+                class="iconfont icon-{{item.icon}} fs"
+                >
+                </text>
+            </view>
+            <view class="item-text">
+                <view class="info-title">{{item.title}}</view>
+                <view class="info-cont">{{item.cont}}</view>
+            </view>
+    </view>
+  </view>
+  <view class="main">
+    <view class="q-box">
+      <view class="fs36 fsBold q-title">常见问题</view>
+      <view class="q-item ">1.身份证遗失如何补办？</view>
+      <view class="q-item">2.身份证如何加急办理？</view>
+      <view class="q-item">3.身份证如何加急办理？</view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,17 @@
+<view class="hukou-page">
+  <view class="title fs48 fsBold p20">
+    <text class="iconfont icon-zhengwudating fs48 red"></text>
+    户政服务中心
+  </view>
+  <van-tabs active="{{ active }}" tab-class="tab" tab-active-class="tab-active" bind:change="onChange" sticky swipeable>
+    <van-tab title="免费">
+      <Free name="free" freeData="{{freeData}}"></Free>
+    </van-tab>
+    <van-tab title="在线办理">内容 2</van-tab>
+    <van-tab title="在线预约">内容 3</van-tab>
+  </van-tabs>
+
+  <view class="ask-btn center" bindtap="ask">
+    <text class="iconfont icon-zaixianzixun fs36"></text>
+  </view>
+</view>

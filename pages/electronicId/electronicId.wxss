@@ -1,0 +1,46 @@
+.icon-box{
+  height: 100rpx;
+}
+.fs120{font-size:320rpx}
+.fs52{
+  font-size: 52rpx;
+   text-align: center;
+   margin-top:30rpx
+}
+.user{
+  margin:40rpx auto;
+  width: 100%;
+  display: flex;
+  padding: 12rpx 24rpx;
+  background: #fff;
+  box-sizing: border-box;
+  box-shadow: 0 12rpx 8rpx #ccc;
+}
+.info-box{flex:3}
+.user-center{flex:1}
+.step-box{
+  margin-top:30rpx;
+  display: flex;
+}
+.step-num{
+  flex:1;
+  
+}
+.step-num-round{
+  width: 60rpx;
+  height: 60rpx;
+  border-radius: 50%;
+  border:2rpx solid #3370CC;
+  font-size:36rpx
+}
+.step-desc{
+  flex:1
+}
+.steps-index--vant-step__icon{
+  font-size: 48rpx !important;
+}
+
+.van-button--primary {
+  font-size:20px !important;
+  background-color: pink !important;
+}

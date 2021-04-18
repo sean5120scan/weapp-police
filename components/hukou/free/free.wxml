@@ -1,0 +1,57 @@
+<wxs src="../../../xms/index.wxs" module="tools"/>
+<view class="f-page">
+  <view
+  wx:for="{{freeData}}"
+  wx:key="{{item.id}}"
+  class="f-item "
+  >
+    <view class="f-item-inner-wrap">
+        <view class="f-item-inner-title fs36 P20">{{item.matName}}</view>
+        <view class="f-item-inner-cont fx">
+            <view class="list-item fx">
+              <view class="lt-icon-box">
+                  <view class="icon-inner center c3">
+                    <text class="iconfont icon-kuaidi1  "></text>
+                  </view>
+              </view>
+              <view class="lt-props center">
+                <text class="mr12">邮寄送达:</text>
+              </view>
+              <view class="lt-val vcenter">
+                <text class="{{item.emsneed =='Y'?'yes':'no'}}">{{tools.isPost(item.emsneed)}}</text>
+              </view>               
+            </view>
+            <view class="list-item fx">
+              <view class="lt-icon-box">
+                  <view class="icon-inner center c1">
+                    <text class="iconfont icon-shendurenzheng   "></text>
+                  </view>
+              </view>
+              <view class="lt-props center">
+                <text class="mr12">办理深度:</text>
+              </view>
+              <view class="lt-val vcenter">
+                <text>{{tools.parseDeep(item.matProp)}}</text>
+              </view>    
+            </view>
+            <view class="list-item fx">
+              <view class="lt-icon-box">
+                  <view class="icon-inner center c2">
+                    <text class="iconfont icon-riqi  "></text>
+                  </view>
+              </view>
+              <view class="lt-props center">
+                <text class="mr12">承诺期限:</text>
+              </view>
+              <view class="lt-val vcenter">
+                <text>{{item.promisdays}}天</text>
+              </view>    
+            </view>
+            <view class="f-btns">
+              <van-button class="mr20">办事指引</van-button>
+              <van-button >网上申报</van-button>
+            </view>
+        </view>
+    </view>
+  </view>          
+</view>

@@ -1,0 +1,7 @@
+<view>
+  <view class="head">
+      <view class="head-inner"></view>
+  </view>
+
+  <view class="spinner"></view>
+</view>

@@ -1,0 +1,63 @@
+ body{
+   color:#333
+ }
+.theme-color{
+   background: #3370CC;
+ }
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.vcenter{
+  display: flex;
+  align-items: center;
+}
+.flexR{
+  display: flex;
+  justify-content: flex-end;
+}
+.bsize{
+  box-sizing: border-box;
+}
+.p10{
+  padding: 10rpx;
+}
+.p20{
+  padding: 20rpx;
+}
+.ptb10{
+  padding: 10rpx 0;
+}
+
+.ptb20{
+  padding: 20rpx 0;
+}
+.c6{color:#666}
+.c9{color:#999}
+
+.fs12{font-size: 12rpx;}
+.fs16{font-size: 16rpx;}
+.fs18{font-size: 18rpx;}
+.fs20{font-size: 20rpx;}
+.fs24{font-size: 24rpx;}
+.fs26{font-size: 26rpx;}
+.fs28{font-size: 28rpx;}
+.fs32{font-size: 32rpx;}
+.fs36{font-size: 36rpx;}
+.fs38{font-size: 38rpx;}
+.fs48{font-size: 48rpx;}
+.fsBold{font-weight: bold;}
+
+.txtCenter{text-align: center;}
+
+.m20{margin:20rpx}
+.mt10{margin-top:10rpx}
+.mr12{
+  margin-right: 12rpx;
+  
+}
+.mr20{
+  margin-right: 20rpx;
+}
+.fx{display: flex;}

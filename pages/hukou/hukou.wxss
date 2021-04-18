@@ -1,0 +1,33 @@
+@import "../../common/index.wxss";
+.hukou-page{
+  background: #f7f7f7;
+}
+.title{
+  border-bottom:1rpx solid #eee;
+  background: #fff;
+  padding:30rpx;
+}
+.red{color:#f00}
+
+.ask-btn{
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  background:#f00;
+  box-shadow: 0 0 24rpx 5rpx rgba(0,0,0,0.3);
+  position: fixed;
+  color:#fff;
+  bottom:40rpx;
+  right:40rpx
+}
+.tab{
+  font-size:32rpx !important;
+  font-weight:bold;
+  padding:20rpx 0;
+}
+.tab-active{
+  font-weight:bold !important;
+}
+.van-tab{
+  font-size:48rpx
+}

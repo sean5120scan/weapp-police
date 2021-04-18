@@ -1,0 +1,36 @@
+{
+  "pages":[
+    "pages/loading/loading",
+    "pages/index/index",
+    "pages/home/home",
+    "pages/logs/logs",
+    "pages/deptDetail/deptDetail",
+    "pages/electronicId/electronicId",
+    "pages/deptList/deptList",
+    "pages/hukou/hukou",
+    "pages/IDCard/IDCard",
+    "pages/outLand/outLand",
+    "pages/traffic/traffic",
+    "pages/residence/residence",
+    "pages/publicSecurity/publicSecurity",
+    "pages/userCenter/userCenter",
+    "pages/socket/socket"
+
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#3370CC",
+    "navigationBarTitleText": "监利公安",
+    "navigationBarTextStyle":"white"
+  },
+  "usingComponents": {
+    "van-button": "./dist/button/index",
+    "van-image": "./dist/image/index",
+    "van-row": "./dist/row/index",
+    "van-col": "./dist/col/index",
+    "van-steps": "./dist/steps/index",
+    "van-tab": "./dist/tab/index",
+    "van-tabs": "./dist/tabs/index"
+  },
+  "sitemapLocation": "sitemap.json"
+}

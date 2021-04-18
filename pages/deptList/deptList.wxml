@@ -1,0 +1,35 @@
+<view class="dept-page">
+  <wxs src="../../xms/index.wxs" module="tools"></wxs>
+  <view class="dept-list-head">
+    <view class="dept-list-lt">
+      <view class="dept-p fs48 fsBold">地方派出所查询</view>
+      <view class="dept-p">贴心服务</view>
+      <view class="dept-p">
+        <input class="ipt"  placeholder="请输入要乡镇派出所名称"/>
+      </view>
+    </view>
+    <view class="dept-list-rt">
+    </view>
+  </view>
+  <view class="list-box"> 
+    <view class="dept-item" wx:for="{{deptArr}}"  wx:key="index">
+        <view class="dept-icon center">
+          <view class="dept-icon-tit center fs38" style="background-color:{{tools.getRandColor()}}">{{item.title}}</view>
+        </view>
+        <view class="dept-cont">
+          <view class="fs36 ptb10">{{item.cont}}</view>
+          <view class="fs32 ptb10 c6">{{item.town}}</view>
+        </view>
+        <view class="dept-arrow">
+          <text class="iconfont icon-youjiantou fs24"></text>
+        </view>
+        <view></view>
+        <view></view>
+      </view>
+  </view>
+  <view>
+    <view class="ptb10 txtCenter c6 fs20">国家电子政务平台惠民工程</view>
+  </view>
+
+
+</view>
